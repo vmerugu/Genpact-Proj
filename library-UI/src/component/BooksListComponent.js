@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import LibDataService from '../service/LibDataService.js';
 
-class LibListComponent extends Component {
+class BooksListComponent extends Component {
     constructor(props) {
         super(props)
 		
@@ -87,4 +87,4 @@ class LibListComponent extends Component {
     }
 }
 
-export default LibListComponent
+export default BooksListComponent
